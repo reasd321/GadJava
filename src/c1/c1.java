@@ -1,6 +1,6 @@
 package c1;
 
-public class c1{
+/*public class c1{
     public static void main(String[]args){
         System.out.println(compute(101));
         compute2();                         // Adauga logica "compute"
@@ -86,13 +86,13 @@ public class c1{
         }
         return a;
     }
-}
+}*/
 
 /*public class c1{                // Code challenge 1
-    public static void main(String[] args){
+    public void Fizz(){
         for(int i=1;i<=100;i++){
             if(i%3==0)
-                System.out.println("Fizz");
+                System.out.println("Fizz ");
             else if (i%5==0)
                 System.out.println("Buzz");
             else if (i%5==0 && i%3==0)
@@ -104,6 +104,10 @@ public class c1{
             else
                 System.out.println(i);
         }
+    }
+    public static void main(String[] args){
+        c1 x = new c1();
+        x.Fizz();
     }
 }*/
 
