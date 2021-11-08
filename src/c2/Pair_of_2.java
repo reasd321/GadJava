@@ -1,4 +1,4 @@
-package c3;
+package c2;
 
 public class Pair_of_2 {
     public static int count(int[] x){
