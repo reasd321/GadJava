@@ -1,44 +1,6 @@
 package c2;
 
-/*public class Main{
-    private static String contains(int num){
-        if(num==0){
-            return "";
-        }
-        int x = num % 10;
-        if(x == 3)
-            return contains(num/10)+"Foo";
-        if(x == 5)
-            return contains(num/10)+"Bar";
-        if(x == 7)
-            return contains(num/10)+"Quix";
-
-        return "";
-    }
-    public static String fooBarQuix(int num){
-        String toReturn = "";
-        int ok = 0;
-        if (num%3==0)
-            toReturn = toReturn + "Foo";
-        if (num%5==0)
-            toReturn = toReturn + "Bar";
-        if (num%7==0)
-            toReturn = toReturn + "Quix";
-
-        toReturn = toReturn+contains(num);
-        if(toReturn.equals(""))
-            return "" + num;
-        return toReturn;
-    }
-
-    public static void main(String[] args) {
-        for(int i=0;i<=53;i++){
-            System.out.println(i+ " " + fooBarQuix(i));
-        }
-    }
-}*/
-
-public class Main {                     //Code Challenge 2
+public class FooBarQix {                     //Code Challenge 2
     public String compute2(int x){
         String a = "";
         int n=x;
