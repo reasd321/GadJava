@@ -10,10 +10,12 @@ public abstract class Beverage {
     }
 
     public String getDescription() {
+
         return description;
     }
 
     public int getCost() {
+
         return cost;
     }
 }
